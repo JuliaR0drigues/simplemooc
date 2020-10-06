@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+    <div class="splash">
+        <div class="pure-g-r">
+            <div class="pure-u-1">
+                <div class="l-box splash-text">
+                    <h1 class="splash-head">
+                        Uma Simples Plataforma de Ensino a Distância
+                    </h1>
+                    <h2 class="splash-subhead">
+                        O Simple MOOC visa simplificar o ensino a distância, provendo ferramentas objetivas e de fácil uso para cursos a distância.
+                    </h2>
+                    <p>
+                        <a href="#" class="pure-button primary-button">Saiba mais</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="pure-g-r content-ribbon">
+            <div class="pure-u-2-3">
+                <div class="l-box">
+                    <h4 class="content-subhead">Para um melhor atendimento entre em contato conosco</h4>
+                    <h3>Você pode entrar em contato conosco por e-mail como pelas redes sociais, abaixo seguem os links para contato:</h3>
+                    <p>
+                        <b>E-mail:</b> julia.rodrigues@ifsuldeminas.edu.br </br></br>
+                        <b>Telefone: <strong> (035) 9 9965-6342 </strong> </b> </br></br>
+                    </p>
+                </div>
+            </div>
+            <div class="pure-u-1-3">
+                <div class="l-box">
+                    <img src="{% static 'img/Contato.jpg' %}"  alt="Vídeo aulas e materiais digitais." width=340 height=300>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
